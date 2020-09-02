@@ -46,8 +46,8 @@
 *.ipch
 *.opendb
 *.db
-Algorithms_DataStructures_Repository/.vs/Algorithms_DataStructures_Repository/v16/.suo
-Algorithms_DataStructures_Repository/.vs/Algorithms_DataStructures_Repository/v16/Browse.VC.db
-Algorithms_DataStructures_Repository/.vs/Algorithms_DataStructures_Repository/v16/Browse.VC.db-shm
-Algorithms_DataStructures_Repository/.vs/Algorithms_DataStructures_Repository/v16/Browse.VC.opendb
-Algorithms_DataStructures_Repository/.vs/Algorithms_DataStructures_Repository/v16/Solution.VC.db-shm
+
+# Ignore Build Files
+.vs/
+Debug/
+x64/
