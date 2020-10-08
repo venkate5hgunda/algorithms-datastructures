@@ -148,6 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithms_BackTracking.cpp" />
+    <ClCompile Include="NQueensProblem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NQueensProblem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

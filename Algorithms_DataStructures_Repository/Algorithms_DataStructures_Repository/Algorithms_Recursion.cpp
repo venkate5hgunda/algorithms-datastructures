@@ -83,7 +83,15 @@ int binarySearch(int number, int numbersArray[], int lowIndex, int highIndex) {
 #pragma endregion
 
 #pragma region TowersOfHanoi
-
+void towersOfHanoi(int n, char rodFrom, char middleRod, char rodTo) {
+    if (n == 1) {
+        cout << "Plate 1 from " << rodFrom << " to " << rodTo << endl;
+        return;
+    }
+    towersOfHanoi(n - 1, rodFrom, rodTo, middleRod);
+    cout << "Plate " << n << " from " << rodFrom << " to " << rodTo << endl;
+    towersOfHanoi(n - 1, middleRod, rodFrom, rodTo);
+}
 #pragma endregion
 
 
@@ -168,7 +176,10 @@ int main()
     cout << endl;
 
     #pragma region TowersOfHanoi Problem
-
+    number = 3;
+    cout << "***TOWERS OF HANOI [3-ROD RECURSION]***" << endl;
+    towersOfHanoi(number, 'A', 'B', 'C');
     #pragma endregion
 
+    cout << endl;
 }
