@@ -21,9 +21,15 @@
     <ClCompile Include="NQueensProblem.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="GraphColoring.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NQueensProblem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphColoring.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
