@@ -27,8 +27,8 @@ int main()
 	#pragma endregion
 
 	#pragma region KnightTourProblem
-	KnightTourProblem knightTour;
-	knightTour.solveKnightTourProblem();
-	return 0;
+	//KnightTourProblem knightTour;
+	//knightTour.solveKnightTourProblem();
+	//return 0;
 	#pragma endregion
 }
